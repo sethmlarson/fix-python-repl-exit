@@ -16,7 +16,7 @@ $ touch ~/.pythonstartup.py
 
 # Add the PYTHONSTARTUP environment variable to your bash / console profile:
 # The name of the file '~/.bashrc' may be different if you're on a different OS.
-$ echo "export PYTHONSTARTUP=~/.pythonstartup.py" > ~/.bashrc
+$ echo 'export PYTHONSTARTUP="$HOME/.pythonstartup.py"' > ~/.bashrc
 
 # Add things to the '.pythonstartup.py' file:
 $ cat fix-python-repl-exit.py >> ~/.pythonstartup.py
